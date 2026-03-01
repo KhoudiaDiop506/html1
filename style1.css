@@ -1,56 +1,145 @@
-body{
-    \* style generale \*
-    background-color: blue;
-    font family: times new roman;
-    margin: 20px;
+body {
+    /* ===== Style général ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333;
 }
-nav{
-    \* navbar \*
-    background-color: darkblue;
-    padding: 10px;
-    margin: 5px;
-    
-}
-nav ul{
-    \* lista di navigazione \*
-    list-style-type: none;
-    margin: 20px;
-    padding: 10PX; 
 
+/* ===== Navbar ===== */
+header {
+    background-color: #111;
+    padding: 15px 0;
 }
-section{
-    
-    background-color: white;
-    padding: 10px;
-    
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
-table{
-    border-collapse: collapse;
-    width: 100%;
+
+.navbar li {
+    margin: 0 20px;
 }
-th, td{
-    border: 1px solid black;
-    padding: 5px;
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #00bcd4;
+}
+
+/* ===== Sections ===== */
+section {
+    padding: 60px 20px;
     text-align: center;
 }
-th{
-    background-color: lightgray;
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #111;
 }
-input[type="text"], input[type="email"], textarea{
-    width: 100%;
-    padding: 5px;
-    margin: 5px ;
+
+h2 {
+    margin-bottom: 20px;
+    color: #00bcd4;
 }
-button{
-    background-color: darkblue;
-    color: white;
-    padding: 10px 20px;
-}
-footer{
-    background-color: darkblue;
-    color: white;
-    text-align: center;
-    padding: 10px;
+
+/* ===== Home ===== */
+.home img {
+    width: 250px;
+    border-radius: 50%;
     margin-top: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+
+/* ===== Work ===== */
+#work ul {
+    list-style: none;
+}
+
+#work li {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* ===== Resume Table ===== */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+    background: white;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #00bcd4;
+    color: white;
+}
+
+/* ===== Contact ===== */
+#contact input,
+#contact textarea {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact input[type="submit"] {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#contact input[type="submit"]:hover {
+    background-color: #0097a7;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+    
+
+
+}
+
+
+
+
+.
+    
+
+
+
+
+    
+    
